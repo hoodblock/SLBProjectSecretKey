@@ -1,0 +1,6 @@
+framework module SLBProjectSecretKeySDK {
+  umbrella header "SLBProjectSecretKeySDK.h"
+
+  export *
+  module * { export * }
+}
