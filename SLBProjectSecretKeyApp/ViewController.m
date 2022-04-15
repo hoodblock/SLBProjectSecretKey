@@ -49,12 +49,7 @@
 //    NSString *decWithPrivKey = [SLBProjectSecretKeyTest projectSecretKeySourceString:encWithPubKey subSecretKey:privkey encryptType:SLBProjectSecretKeyTypeRSADecryptPrivateKey];
 //    NSLog(@"Decrypted with private key: %@", decWithPrivKey);
     
-    
-    
-    UIImageView *imageView = [[UIImageView alloc] init];
-    imageView.image = [UIImage imageNamed:@"launch.jpg"];
-    imageView.frame = CGRectMake(100, 200, 60, 60);
-    [self.view addSubview:imageView];
+
 }
 
 

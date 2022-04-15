@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0450ABE227EF37C10071721D /* launch_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0450ABE127EF37C10071721D /* launch_1@3x.png */; };
-		0450ABE827F183FF0071721D /* launch_iamge_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0450ABE727F183FF0071721D /* launch_iamge_2@3x.png */; };
-		0450ABEB27F184460071721D /* launch@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0450ABE927F184460071721D /* launch@3x.png */; };
-		0450ABEC27F184460071721D /* launch_image_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0450ABEA27F184460071721D /* launch_image_1@2x.png */; };
-		0450ABF227F187D60071721D /* 2022-03-28 14.05.39.png in Resources */ = {isa = PBXBuildFile; fileRef = 0450ABF127F187D60071721D /* 2022-03-28 14.05.39.png */; };
-		0450ABF427F1886E0071721D /* launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0450ABF327F1886E0071721D /* launch.jpg */; };
 		04667AFE27B78CD6003BBCC4 /* SLBProjectSecretKeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04667AFD27B78CD6003BBCC4 /* SLBProjectSecretKeySDK.framework */; };
 		04F5885E27B394C30048F497 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F5885D27B394C30048F497 /* AppDelegate.m */; };
 		04F5886127B394C30048F497 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F5886027B394C30048F497 /* SceneDelegate.m */; };
@@ -44,12 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0450ABE127EF37C10071721D /* launch_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_1@3x.png"; sourceTree = "<group>"; };
-		0450ABE727F183FF0071721D /* launch_iamge_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_iamge_2@3x.png"; sourceTree = "<group>"; };
-		0450ABE927F184460071721D /* launch@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch@3x.png"; sourceTree = "<group>"; };
-		0450ABEA27F184460071721D /* launch_image_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_image_1@2x.png"; sourceTree = "<group>"; };
-		0450ABF127F187D60071721D /* 2022-03-28 14.05.39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2022-03-28 14.05.39.png"; sourceTree = "<group>"; };
-		0450ABF327F1886E0071721D /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch.jpg; sourceTree = "<group>"; };
 		04667AFD27B78CD6003BBCC4 /* SLBProjectSecretKeySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SLBProjectSecretKeySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F5885927B394C30048F497 /* SLBProjectSecretKeyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLBProjectSecretKeyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F5885C27B394C30048F497 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -128,12 +116,6 @@
 		04F5885B27B394C30048F497 /* SLBProjectSecretKeyApp */ = {
 			isa = PBXGroup;
 			children = (
-				0450ABF327F1886E0071721D /* launch.jpg */,
-				0450ABF127F187D60071721D /* 2022-03-28 14.05.39.png */,
-				0450ABEA27F184460071721D /* launch_image_1@2x.png */,
-				0450ABE927F184460071721D /* launch@3x.png */,
-				0450ABE727F183FF0071721D /* launch_iamge_2@3x.png */,
-				0450ABE127EF37C10071721D /* launch_1@3x.png */,
 				04F5885C27B394C30048F497 /* AppDelegate.h */,
 				04F5885D27B394C30048F497 /* AppDelegate.m */,
 				04F5885F27B394C30048F497 /* SceneDelegate.h */,
@@ -269,15 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0450ABE827F183FF0071721D /* launch_iamge_2@3x.png in Resources */,
-				0450ABF227F187D60071721D /* 2022-03-28 14.05.39.png in Resources */,
-				0450ABE227EF37C10071721D /* launch_1@3x.png in Resources */,
-				0450ABEB27F184460071721D /* launch@3x.png in Resources */,
-				0450ABEC27F184460071721D /* launch_image_1@2x.png in Resources */,
 				04F5886C27B394C40048F497 /* LaunchScreen.storyboard in Resources */,
 				04F5886927B394C40048F497 /* Assets.xcassets in Resources */,
 				04F5886727B394C30048F497 /* Main.storyboard in Resources */,
-				0450ABF427F1886E0071721D /* launch.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
