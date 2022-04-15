@@ -8,11 +8,12 @@
 #import "ViewController.h"
 #import <SLBProjectSecretKeySDK/SLBProjectSecretKeyTest.h>
 
-
-
 @interface ViewController ()
-
+@property (strong, nonatomic) UILabel *encryptLabel;
+@property (strong, nonatomic) UILabel *decryptLabel;
 @end
+
+
 
 @implementation ViewController
 
@@ -49,8 +50,9 @@
 //    NSString *decWithPrivKey = [SLBProjectSecretKeyTest projectSecretKeySourceString:encWithPubKey subSecretKey:privkey encryptType:SLBProjectSecretKeyTypeRSADecryptPrivateKey];
 //    NSLog(@"Decrypted with private key: %@", decWithPrivKey);
     
-
 }
+
+
 
 
 @end
